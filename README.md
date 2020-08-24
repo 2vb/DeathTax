@@ -9,13 +9,11 @@
     <img alt="Twitter: tooveebee" src="https://img.shields.io/twitter/follow/tooveebee.svg?style=social" />
   </a>
 </p>
-##🏠 [Homepage](https://github.com/2vb/DeathTax)
-
 ## Author
 
 👤 **tooveebee**
 
-* Website: tooveebee.me
+* Website: [Website](https://tooveebee.me)
 * Twitter: [@tooveebee](https://twitter.com/tooveebee)
 * Github: [@2vb](https://github.com/2vb)
 
