@@ -11,7 +11,7 @@
   </a>
 </p>
 
-## Releases
+## Download
 
 📖 **Releases**
 * [Releases](https://github.com/2vb/DeathTax/releases)
