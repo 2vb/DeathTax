@@ -2,5 +2,6 @@ death-tax-enabled: true
 tax-amount: 5
 no-funds-punishment: true
 lower-health-punishment: true
-death-message: "&cYou died and %s was taken from you. You now have %s"
+lower-health: 10
+death-message: "&cYou died and %s was taken from you."
 no-funds-message: "&cYou died and money was not taken as you do not have enough funds."

@@ -23,7 +23,7 @@ public class DeathTax implements Listener, CommandExecutor {
                     help(sender);
                 } else {
                     if (args[0].equalsIgnoreCase("reload")) {
-                        if (sender.hasPermission("tooveebee.reload")) {
+                        if (sender.hasPermission("tooveebee.reload" )) {
                             plugin.reloadConfig();
                             plugin.saveConfig();
                             sender.sendMessage(ChatColor.GREEN + "DeathTax has been reloaded.");
@@ -47,7 +47,7 @@ public class DeathTax implements Listener, CommandExecutor {
                             sender.sendMessage(ChatColor.DARK_RED + "You do not have permission to use this command. You need the permission " + ChatColor.RED + "tooveebee.disable" + ChatColor.DARK_RED + " to use this command.");
                         }
                     } else if (args[0].equalsIgnoreCase("settaxamount")) {
-                        if (sender.hasPermission("tooveebee.deathtax")) {
+                        if (sender.hasPermission("tooveebee.tax")) {
                             if (args.length > 1) {
                                 try {
                                     plugin.getConfig().set("tax-amount", Integer.parseInt(args[1]));

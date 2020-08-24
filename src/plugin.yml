@@ -12,8 +12,8 @@ commands:
     description: DeathTax commnads
 
 permissions:
-  tooveebee.deathtax:
-    description: Allows you to use DeathTax admin commands.
+  tooveebee.tax:
+    description: Allows you to set tax amount.
     default: false
   tooveebee.reload:
     description: Allows you to reload plugin.

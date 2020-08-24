@@ -9,7 +9,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
-import org.bukkit.event.player.PlayerRespawnEvent;
 
 import static me.tooveebee.deathtax.Main.econ;
 
@@ -28,25 +27,16 @@ public class Death implements Listener {
             EconomyResponse r = econ.withdrawPlayer(player, plugin.getConfig().getInt("tax-amount"));
             if (r.transactionSuccess()) {
                 player.sendMessage(ChatColor.translateAlternateColorCodes('&', String.format(plugin.getConfig()
-                        .getString("death-message").replace("%amount", econ.format(r.amount).replace("%balance%", econ.format(r.balance))))));
+                        .getString("death-message").replace("%s", econ.format(r.amount)))));
             } else {
                 if (r.errorMessage == "PlayerAccount lacking funds.") {
-                    player.sendMessage(ChatColor.RED + plugin.getConfig().getString("no-funds-message"));
-                    if (plugin.getConfig().getBoolean("no-funds-punishment")) {
-                    }
-
+                    player.sendMessage(ChatColor.translateAlternateColorCodes('&', String.format(plugin.getConfig()
+                            .getString("no-funds-message"))));
                 } else {
                     player.sendMessage(String.format("An error occurred: %s", r.errorMessage));
                 }
             }
         }
     }
-
-    @EventHandler(priority = EventPriority.LOW)
-    public void onRespawn(PlayerRespawnEvent respawnevent) {
-        if (plugin.getConfig().getBoolean("lower-health-punishment")) {
-            Player player = respawnevent.getPlayer();
-            player.setHealth(10);
-        }
-    }
 }
+
