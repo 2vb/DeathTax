@@ -11,7 +11,8 @@
   </a>
 </p>
 ## Releases
-* [Releases](https://github.com/2vb/DeathTax/releases/)
+* [Releases](https://tooveebee.me)
+
 ## Author
 
 👤 **tooveebee**
