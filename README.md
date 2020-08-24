@@ -14,7 +14,7 @@
 
 👤 **tooveebee**
 
-* Website: [Website](https://tooveebee.me)
+* [Website](https://tooveebee.me)
 * Twitter: [@tooveebee](https://twitter.com/tooveebee)
 * Github: [@2vb](https://github.com/2vb)
 
