@@ -5,6 +5,7 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://github.com/2vb/DeathTax/blob/master/LICENSE" target="_blank">
+        <img alt="License: MIT" src="https://img.shields.io/github/license/2vb/DeathTax" />
   </a>
   <a href="https://twitter.com/tooveebee" target="_blank">
     <img alt="Twitter: tooveebee" src="https://img.shields.io/twitter/follow/tooveebee.svg?style=social" />
