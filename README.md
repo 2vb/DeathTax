@@ -10,7 +10,10 @@
     <img alt="Twitter: tooveebee" src="https://img.shields.io/twitter/follow/tooveebee.svg?style=social" />
   </a>
 </p>
+
 ## Releases
+
+📖 **Releases**
 * [Releases](https://github.com/2vb/DeathTax/releases)
 
 ## Author
