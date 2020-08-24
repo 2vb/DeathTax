@@ -4,7 +4,7 @@
   <a href="https://github.com/2vb/DeathTax#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/2vb/DeathTax/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/2vb/DeathTax" />
   </a>
   <a href="https://twitter.com/tooveebee" target="_blank">
