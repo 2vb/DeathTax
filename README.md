@@ -9,9 +9,6 @@
     <img alt="Twitter: tooveebee" src="https://img.shields.io/twitter/follow/tooveebee.svg?style=social" />
   </a>
 </p>
-
-> A spigot plugin for 1.15.x and up that taxes you for dying in Minecraft.
-
 ### 🏠 [Homepage](https://github.com/2vb/DeathTax)
 
 ## Author
