@@ -1,0 +1,26 @@
+name: Deathtax
+version: 1
+main: me.tooveebee.deathtax.Main
+
+description: Taxes you for dying in Minecraft!
+load: STARTUP
+author: tooveebee
+depend: [Vault]
+api-version: 1.16
+commands:
+  dt:
+    description: DeathTax commnads
+
+permissions:
+  tooveebee.deathtax:
+    description: Allows you to use DeathTax admin commands.
+    default: false
+  tooveebee.reload:
+    description: Allows you to reload plugin.
+    default: false
+  tooveebee.enable:
+    description: Allows you to enable the plugin.
+    default: false
+  tooveebee.disable:
+    description: Allows you to disable the plugin
+    default: false

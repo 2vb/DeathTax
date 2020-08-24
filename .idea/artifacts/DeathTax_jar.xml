@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DeathTax:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DeathTax_jar</output-path>
+    <root id="archive" name="DeathTax.jar">
+      <element id="module-output" name="DeathTax" />
+    </root>
+  </artifact>
+</component>
